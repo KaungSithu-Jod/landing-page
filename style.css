@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.Header, .Introduction, .Footer {
+    background-color: #1f2937;
+    color: #f9f1f8;
+}
+
+.Header {
+    padding: 20px 220px 100px 220px;
+    display: flex;
+}
+
+#logo {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.headerlinks {
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.headerlinks li {
+    display: inline-block;
+    padding: 8px;
+}
+.headerlinks li a {
+    text-decoration: none;
+    color: inherit;
+}
+.Introduction {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 0 250px 100px 250px;
+    justify-content: space-between;
+}
+
+.Introduction img {
+    width: 500px;
+    height: 250px;
+    border-radius: 2%;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.paragraph {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+.BigText {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.SmallText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: inherit;
+}
+
+button, .SignUp {
+    background-color: #3882f6;
+}
+
+.RandomInfo {
+    padding: 20px 300px 70px 300px;
+}
+
+.RandomInfo h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.RandomInfo ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.RandomInfo ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px;
+}
+
+.RandomInfo ul li img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+    border-radius: 3%;
+    border: solid #3882f6;
+    
+}
+
+.RandomInfo ul li span {
+    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.Quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 30px;
+    padding: 100px 300px 100px 300px;
+    text-align: justify;
+}
+
+.Quote p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: end;
+}
+
+.SignUp {
+    color: #f9f1f8;
+    border-radius: 30px;
+    padding: 50px 100px 50px 100px;
+    margin: 100px 200px 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SignUp div {
+    flex: 6;
+    text-align: start;
+    line-height: 30px;
+}
+.SignUp button {
+    flex: 1;
+}
+
+.Footer {
+    text-align: center;
+    padding: 20px 0px;
+}
+
